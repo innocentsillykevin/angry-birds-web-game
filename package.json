@@ -1,0 +1,7 @@
+{
+  "name": "little-birds",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Angry Birds：一个可以离线打开、边玩边学的弹弓小游戏。",
+  "scripts": { "test": "node --test tests/*.test.cjs", "start": "python3 -m http.server 4173 --directory dist --bind 127.0.0.1" }
+}
